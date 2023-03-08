@@ -1,0 +1,83 @@
+span{
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+    height: 30%;
+    text-align: center;
+}
+#tributeinfo{
+    padding:10px;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+div .timeline{
+    padding: 10px;
+    width: 50%;
+    margin-left: 10px;
+}
+section{
+    background-color: azure;
+    margin: 5px;
+}
+#box{
+    box-sizing: border-box;
+    margin: 10px;
+    
+    border: 2px solid black;
+    width: 40%;
+    
+    
+    border-radius: 10px;
+ text-align: center;
+ background-color: lightgray;
+}
+blockquote::before{
+content: "\275D";
+  font-size: 10em;
+  display: inline-block;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  opacity: 0.1;
+}
+ .right{
+    position: relative;
+    left:50%;
+
+    
+}
+
+
+.text {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 20px;
+     position: relative;
+     left: 15%;
+     
+     width: 100%;
+}
+.left::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 275%;
+    background-color: greenyellow;
+    top: 75%;
+    bottom: 300%;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .right::before{
+    content:0;}
+
+    
+  
+  .date {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+  }
